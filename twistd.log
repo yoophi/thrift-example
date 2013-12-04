@@ -1,0 +1,15 @@
+2013-12-04 14:50:34+0900 [-] Log opened.
+2013-12-04 14:50:34+0900 [-] twistd 11.1.0 (/usr/bin/python 2.7.3) starting up.
+2013-12-04 14:50:34+0900 [-] reactor class: twisted.internet.pollreactor.PollReactor.
+2013-12-04 14:50:34+0900 [-] ThriftServerFactory starting on 9090
+2013-12-04 14:50:34+0900 [-] Starting factory <thrift.transport.TTwisted.ThriftServerFactory instance at 0x24c03b0>
+2013-12-04 14:50:39+0900 [ThriftServerProtocol,0,127.0.0.1] ping()
+2013-12-04 14:50:39+0900 [ThriftServerProtocol,0,127.0.0.1] add(1,1)
+2013-12-04 14:50:39+0900 [ThriftServerProtocol,0,127.0.0.1] calculate(1, Work(comment=None, num1=1, num2=0, op=4))
+2013-12-04 14:50:39+0900 [ThriftServerProtocol,0,127.0.0.1] calculate(1, Work(comment=None, num1=15, num2=10, op=2))
+2013-12-04 14:50:39+0900 [ThriftServerProtocol,0,127.0.0.1] getStruct(1)
+2013-12-04 14:50:40+0900 [ThriftServerProtocol,1,127.0.0.1] ping()
+2013-12-04 14:50:40+0900 [ThriftServerProtocol,1,127.0.0.1] add(1,1)
+2013-12-04 14:50:40+0900 [ThriftServerProtocol,1,127.0.0.1] calculate(1, Work(comment=None, num1=1, num2=0, op=4))
+2013-12-04 14:50:40+0900 [ThriftServerProtocol,1,127.0.0.1] calculate(1, Work(comment=None, num1=15, num2=10, op=2))
+2013-12-04 14:50:40+0900 [ThriftServerProtocol,1,127.0.0.1] getStruct(1)
